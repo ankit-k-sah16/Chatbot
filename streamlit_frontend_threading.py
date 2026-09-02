@@ -50,7 +50,7 @@ add_thread_to_history(st.session_state['thread_id'])
 
 # ********************************* Sidebar UI **************************************************
 
-st.sidebar.title("LangGraph Chatbot")
+st.sidebar.title("Chatbot")
 
 st.sidebar.button("New Chat",on_click=reset_chat, type="primary")
 
@@ -100,7 +100,7 @@ if user_input :
 
     
     with st.chat_message("user"):
-        st.text(user_input)
+        st.markdown(user_input)
 
     CONFIG ={ "configurable": {"thread_id": st.session_state['thread_id'] }}
 

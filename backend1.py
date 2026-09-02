@@ -1,3 +1,4 @@
+import os
 from langchain_groq import ChatGroq
 
 from langgraph.graph import StateGraph,START,END
@@ -8,8 +9,9 @@ from langgraph.graph.message import add_messages
 
 
 from langgraph.checkpoint.memory import InMemorySaver
-env = load_dotenv()
-llm = ChatGroq(model="openai/gpt-oss-120b")
+load_dotenv()
+api_key = os.getenv("GROQ_API_KEY")
+llm = ChatGroq(model="openai/gpt-oss-120b",api_key = api_key)
 
 class ChatbotState(TypedDict):
 
