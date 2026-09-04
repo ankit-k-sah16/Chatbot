@@ -29,7 +29,7 @@ def chat_node(state: ChatbotState):
 
 
 conn = sqlite3.connect(database="langgraph_chatbot.db",check_same_thread=False)
-checkpoint = SqliteSaver(conn=conn)
+checkpointer = SqliteSaver(conn=conn)
 
 graph = StateGraph(ChatbotState)
 
@@ -38,8 +38,11 @@ graph.add_edge(START,"chat_node")
 
 graph.add_edge("chat_node",END)
 
-chatbot = graph.compile(checkpointer=checkpoint)
+chatbot = graph.compile(checkpointer=checkpointer)
 
-
-              
+def retrieve_all_thread_ids():
+    all_thread = set()
+    for checkpoint in checkpointer.list(None):
+        all_thread.add(checkpoint.config['configurable']['thread_id'])
+    return list(all_thread)
 
