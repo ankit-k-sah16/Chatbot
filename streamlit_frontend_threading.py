@@ -1,5 +1,5 @@
 import streamlit as st
-from backend1 import chatbot
+from db_backend import chatbot
 from langchain.messages import HumanMessage
 import uuid
 
