@@ -636,7 +636,7 @@ See the `LICENSE` file for more information.
 
 **Ankit**
 
-AI & ML Enthusiast
+AI Engineer Aspirant
 
 Interested in:
 
@@ -647,7 +647,6 @@ Interested in:
 - RAG
 - Agentic AI
 - Machine Learning
-- Data Science
 
 ---
 
@@ -667,8 +666,6 @@ It helps support the project and motivates me to keep building and learning. ðŸš
 **Live Demo:**  
 `<your-streamlit-community-cloud-url>`
 
-**LinkedIn:**  
-`<your-linkedin-profile>`
 
 ---
 <img width="1920" height="1080" alt="Screenshot 2026-09-05 014201" src="https://github.com/user-attachments/assets/4d4b635e-c5a4-44a5-8a3e-4fa931abf6f3" />
