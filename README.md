@@ -500,31 +500,8 @@ thread_003 → Conversation C
 
 # 📸 Screenshots
 
-Add screenshots of your application here.
-
-Example:
-
-```markdown
-## 📸 Screenshots
-
-### Chat Interface
-
-![Chat Interface](screenshots/chat-interface.png)
-
-### Previous Conversations
-
-![Previous Conversations](screenshots/previous-conversations.png)
-```
-
-Recommended screenshots:
-
-- Main chatbot interface
-- Streaming response
-- Previous conversation sidebar
-- Multiple thread conversations
-- Resuming an earlier conversation
-
----
+<img width="1920" height="1080" alt="Screenshot 2026-09-05 014201" src="https://github.com/user-attachments/assets/4d4b635e-c5a4-44a5-8a3e-4fa931abf6f3" />
+<img width="1920" height="1080" alt="Screenshot 2026-09-10 000640" src="https://github.com/user-attachments/assets/b2b9569b-272e-4f81-ac62-8eaef8af6205" />
 
 # 🌟 Key Learning Outcomes
 
@@ -664,12 +641,11 @@ It helps support the project and motivates me to keep building and learning. �
 `https://github.com/ankit-k-sah16/Chatbot`
 
 **Live Demo:**  
-`<your-streamlit-community-cloud-url>`
+https://ankit-k-sah16-chatbot-streamlit-frontend-threading-xbsieu.streamlit.app/
 
 
 ---
-<img width="1920" height="1080" alt="Screenshot 2026-09-05 014201" src="https://github.com/user-attachments/assets/4d4b635e-c5a4-44a5-8a3e-4fa931abf6f3" />
-<img width="1920" height="1080" alt="Screenshot 2026-09-10 000640" src="https://github.com/user-attachments/assets/b2b9569b-272e-4f81-ac62-8eaef8af6205" />
+
 
 ## 🏷️ Tags
 
